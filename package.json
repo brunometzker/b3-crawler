@@ -1,0 +1,23 @@
+{
+  "name": "b3-asset-crawler",
+  "description": "Web Crawler for assets that are publicly traded on Brazil's main stock market",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Bruno Metzker Salomon",
+  "license": "ISC",
+  "dependencies": {
+    "yakusoku": "git+ssh://git@personal.github.com:brunometzker/yakusoku.git",
+    "my_inspector": "git+ssh://git@personal.github.com:brunometzker/inspector.git",
+    "web-crawler": "git+ssh://git@personal.github.com:brunometzker/web-crawler.git",
+    "moment": "^2.27.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3"
+  }
+}
