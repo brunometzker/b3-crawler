@@ -8,9 +8,9 @@
   "author": "Bruno Metzker Salomon",
   "license": "ISC",
   "dependencies": {
-    "yakusoku": "git+ssh://git@personal.github.com:brunometzker/yakusoku.git",
-    "my_inspector": "git+ssh://git@personal.github.com:brunometzker/inspector.git",
-    "web-crawler": "git+ssh://git@personal.github.com:brunometzker/web-crawler.git",
+    "yakusoku": "git+https://github.com/brunometzker/yakusoku.git",
+    "my_inspector": "git+https://github.com/brunometzker/inspector.git",
+    "web-crawler": "git+https://github.com/brunometzker/web-crawler.git",
     "moment": "^2.27.0",
     "uuid": "^8.3.0"
   },
